@@ -3,9 +3,11 @@ package springFramework;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 import springFramework.controllers.*;
 
 @SpringBootApplication
+//@ComponentScan(basePackages = {"springFramework.services", "springFramework"})
 public class WellDemoApplication {
 
     public static void main(String[] args) {

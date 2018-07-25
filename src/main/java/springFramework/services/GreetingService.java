@@ -1,4 +1,4 @@
-package services;
+package springFramework.services;
 
 public interface GreetingService {
 
